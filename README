@@ -1,0 +1,21 @@
+// HUONG DAN CHAY CODE BAO CAO TIEN TRINH BO NHO
+// NHOM 6 - KSTN - DTVT K59
+// Bai tap lon He dieu hanh
+
+Thu muc gom 4 file (ca README):
+	1 file ma nguon C++ (read_file_2.cpp)
+	1 file output sau khi compile file ma nguon (read_file_2)
+	1 file status chua thong tin ve trang thai cua mot tien trinh (nam trong thu muc /proc/[pid] tren Linux)
+
+OS: Ubuntu 18.04
+
+- Mo Terminal (Ctrl + Alt + T)
+	$ sudo apt-get install htop
+	$ htop	
+- Chon mot process dang chay can xem thong tin ve memory -> lay so PID cua process nay
+- Mo Terminal thu hai
+	cd den thu muc chua file code *.cpp
+	$ g++ read_file_2.cpp -o read_file_2
+	$ ./read_file_2
+	Nhap vao PID cua process can xem thong tin -> thong tin ve memory duoc hien thi tren Terminal
+
